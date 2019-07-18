@@ -1272,19 +1272,19 @@ body.search article:nth-child(even) {
 		width: auto;
 	}
 	
-	.widget.wcb_widget_sponsors .gold  .sponsor-logo {
+	.widget.wcb_widget_sponsors .gold .sponsor-logo {
 		width: calc(50% - 2em);
 	}
 	
-	.widget.wcb_widget_sponsors .small-business  .sponsor-logo {
+	.widget.wcb_widget_sponsors .silver .sponsor-logo {
 		width: calc(33.33% - 2em);
 	}
 	
-	.widget.wcb_widget_sponsors .bronze  .sponsor-logo {
+	.widget.wcb_widget_sponsors .bronze .sponsor-logo {
 		width: calc(25% - 2em);
 	}
 	
-	.widget.wcb_widget_sponsors .small-business  .sponsor-logo {
+	.widget.wcb_widget_sponsors .small-business .sponsor-logo {
 		width: calc(20% - 2em);
 	}
 }
@@ -1299,6 +1299,22 @@ body.search article:nth-child(even) {
 		max-width: 10em;
 		width: auto;
 	}
+	
+	.widget.wcb_widget_sponsors .gold .sponsor-logo img {
+		max-width: 400px;
+	}
+	
+	.widget.wcb_widget_sponsors .silver .sponsor-logo img {
+		max-width: 300px;
+	}
+	
+	.widget.wcb_widget_sponsors .bronze .sponsor-logo img {
+		max-width: 200px;
+	}
+	
+	.widget.wcb_widget_sponsors .small-business .sponsor-logo img {
+		max-width: 100px;
+	}
 }
 
 .sponsor-level {
@@ -1309,7 +1325,7 @@ body.search article:nth-child(even) {
 
 @media (min-width: 992px) {
 	.sponsor-level {
-		width: auto;
+		width: 100%;
 	}
 }
 
