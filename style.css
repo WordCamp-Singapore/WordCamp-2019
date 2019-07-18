@@ -1255,7 +1255,7 @@ body.search article:nth-child(even) {
 	font-weight: 600;
 	line-height: 0;
 	margin: 1em;
-	padding: 2em;
+	padding: 2em 1em;
 	text-decoration: none;
 	vertical-align: middle;
 	width: 80%;
@@ -1273,15 +1273,27 @@ body.search article:nth-child(even) {
 	}
 	
 	.widget.wcb_widget_sponsors .gold .sponsor-logo {
-		width: calc(50% - 2em);
+		width: calc(48% - 2em);
+	}
+	
+	.widget.wcb_widget_sponsors .silver {
+		max-width: 90vw;
 	}
 	
 	.widget.wcb_widget_sponsors .silver .sponsor-logo {
 		width: calc(33.33% - 2em);
 	}
 	
+	.widget.wcb_widget_sponsors .bronze {
+		max-width: 80vw;
+	}
+	
 	.widget.wcb_widget_sponsors .bronze .sponsor-logo {
 		width: calc(25% - 2em);
+	}
+	
+	.widget.wcb_widget_sponsors .small-business {
+		max-width: 70vw;
 	}
 	
 	.widget.wcb_widget_sponsors .small-business .sponsor-logo {
@@ -1305,7 +1317,7 @@ body.search article:nth-child(even) {
 	}
 	
 	.widget.wcb_widget_sponsors .silver .sponsor-logo img {
-		max-width: 300px;
+		max-width: 280px;
 	}
 	
 	.widget.wcb_widget_sponsors .bronze .sponsor-logo img {
@@ -1313,7 +1325,7 @@ body.search article:nth-child(even) {
 	}
 	
 	.widget.wcb_widget_sponsors .small-business .sponsor-logo img {
-		max-width: 100px;
+		max-width: 150px;
 	}
 }
 
