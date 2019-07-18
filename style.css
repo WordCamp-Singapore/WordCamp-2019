@@ -1333,6 +1333,11 @@ body.search article:nth-child(even) {
 		width: 33.33%;
 		float: left;
 	}
+	
+	.wcorg-sponsor-level-small-business .wcorg-sponsor{
+		width: 25%;
+		float: left;
+	}
 }
 
 .sponsor-level {
