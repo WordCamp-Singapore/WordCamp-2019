@@ -1314,6 +1314,7 @@ body.search article:nth-child(even) {
 	
 	.widget.wcb_widget_sponsors .gold .sponsor-logo img {
 		width: 100%;
+		max-width: 15em;
 	}
 	
 	.widget.wcb_widget_sponsors .silver .sponsor-logo img {
