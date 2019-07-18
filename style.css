@@ -1273,31 +1273,31 @@ body.search article:nth-child(even) {
 	}
 	
 	.widget.wcb_widget_sponsors .gold .sponsor-logo {
-		width: calc(48% - 2em);
+		width: calc(33.33% - 2em - 4px);
 	}
 	
 	.widget.wcb_widget_sponsors .silver {
-		max-width: 90vw;
+		width: 80%;
 	}
 	
 	.widget.wcb_widget_sponsors .silver .sponsor-logo {
-		width: calc(33.33% - 2em);
+		width: calc(33.33% - 2em - 4px);
 	}
 	
 	.widget.wcb_widget_sponsors .bronze {
-		max-width: 80vw;
+		width: 70%;
 	}
 	
 	.widget.wcb_widget_sponsors .bronze .sponsor-logo {
-		width: calc(25% - 2em);
+		width: calc(25% - 2em - 4px);
 	}
 	
 	.widget.wcb_widget_sponsors .small-business {
-		max-width: 70vw;
+		width: 60%;
 	}
 	
 	.widget.wcb_widget_sponsors .small-business .sponsor-logo {
-		width: calc(20% - 2em);
+		width: calc(25% - 2em - 4px);
 	}
 }
 
@@ -1313,19 +1313,19 @@ body.search article:nth-child(even) {
 	}
 	
 	.widget.wcb_widget_sponsors .gold .sponsor-logo img {
-		max-width: 400px;
+		width: 100%;
 	}
 	
 	.widget.wcb_widget_sponsors .silver .sponsor-logo img {
-		max-width: 280px;
+		width: 100%;
 	}
 	
 	.widget.wcb_widget_sponsors .bronze .sponsor-logo img {
-		max-width: 200px;
+		width: 100%;
 	}
 	
 	.widget.wcb_widget_sponsors .small-business .sponsor-logo img {
-		max-width: 150px;
+		width: 100%;
 	}
 }
 
