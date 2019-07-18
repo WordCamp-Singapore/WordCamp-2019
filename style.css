@@ -1328,6 +1328,11 @@ body.search article:nth-child(even) {
 	.widget.wcb_widget_sponsors .small-business .sponsor-logo img {
 		width: 100%;
 	}
+	
+	.wcorg-sponsor-level-bronze .wcorg-sponsor{
+		width: 33.33%;
+		float: left;
+	}
 }
 
 .sponsor-level {
