@@ -2036,7 +2036,8 @@ body.error404 .entry-content {
 	max-height: 120px;
 }
 
-.page-slug-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor .wcorg-sponsor-description img {
+.page-slug-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor .wcorg-sponsor-description img,
+.page-slug-sponsors .wcorg-sponsor-level-venue .wcorg-sponsor .wcorg-sponsor-description img{
 	max-height: 250px;
 }
 
