@@ -1272,7 +1272,8 @@ body.search article:nth-child(even) {
 		width: auto;
 	}
 	
-	.widget.wcb_widget_sponsors .gold .sponsor-logo {
+	.widget.wcb_widget_sponsors .gold .sponsor-logo,
+	.widget.wcb_widget_sponsors .venue .sponsor-logo{
 		width: calc(33.33% - 2em - 4px);
 	}
 	
@@ -1312,7 +1313,8 @@ body.search article:nth-child(even) {
 		width: auto;
 	}
 	
-	.widget.wcb_widget_sponsors .gold .sponsor-logo img {
+	.widget.wcb_widget_sponsors .gold .sponsor-logo img,
+	.widget.wcb_widget_sponsors .venue .sponsor-logo img{
 		width: 100%;
 		max-width: 15em;
 	}
