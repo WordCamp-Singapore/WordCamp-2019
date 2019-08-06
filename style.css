@@ -2224,17 +2224,8 @@ body.single-post .entry-content {
 	margin: 0 auto;
 }
 
-body.single-post .entry-header {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1170px;
-	padding-left: 3rem;
-	padding-right: 3rem;
-}
-
 body.single-post .entry-header h1.entry-title {
-	margin-left: 0;
 	font-size: 2.5em;
-	max-width: 800px;
+	padding-right: 25%;
 }
 
