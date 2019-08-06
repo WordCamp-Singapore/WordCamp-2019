@@ -2224,7 +2224,7 @@ body.single-post .entry-content {
 	margin: 0 auto;
 }
 
-body.single-post h1 {
+body.single-post .entry-header h1.entry-title {
 	font-size: 2.5em;
 }
 
