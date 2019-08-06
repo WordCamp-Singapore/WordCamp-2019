@@ -2225,6 +2225,7 @@ body.single-post .entry-content {
 }
 
 body.single-post .entry-header h1.entry-title {
+	margin-left: 0;
 	font-size: 2.5em;
 	max-width: 800px;
 }
