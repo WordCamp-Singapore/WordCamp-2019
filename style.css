@@ -64,6 +64,10 @@ body.home #primary {
 	text-align: center
 }
 
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom: 0.5em;
+}
+
 h1, body.page:not(.home) .entry-header .entry-title,
 body.archive .page-header .entry-title,
 body.single-post .entry-header .entry-title,
@@ -2213,3 +2217,14 @@ span.wcpt-session-speakers a {
 #jp-relatedposts {
 	display: none !important;
 }
+
+/* SINGLE POST */
+body.single-post .entry-content {
+	max-width: 900px !important;
+	margin: 0 auto;
+}
+
+body.single-post h1 {
+	font-size: 2.5em;
+}
+
