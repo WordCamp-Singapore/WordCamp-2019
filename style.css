@@ -68,6 +68,10 @@ h1,h2,h3,h4,h5,h6 {
 	margin-bottom: 0.5em;
 }
 
+.home h1 {
+	margin-bottom:0;
+}
+
 h1, body.page:not(.home) .entry-header .entry-title,
 body.archive .page-header .entry-title,
 body.single-post .entry-header .entry-title,
